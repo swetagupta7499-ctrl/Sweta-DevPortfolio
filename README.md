@@ -13,24 +13,33 @@
   </picture>
 </p>
 
-<h4 align="center"><samp>"Always curious, always learning, and always building."</samp></h4>
+## <p align="center"><h4 align="center"><samp> Computer Science Undergraduate, AI/ML Enthusiast &amp; Problem Solver </samp></h4></p>
+
+<div>
+<img align="right" src="side-image.gif" width="40%"/>
+  <br>
 
 <ul>
 <li>🎓 <samp><b>Computer Science Undergraduate @ Sitare University</b></samp></li>
 <li>💻 <samp>Passionate about programming, problem-solving, and turning ideas into practical solutions through code.</samp></li>
 <li>🏆 <samp><b>Smart India Hackathon Participant:</b> Contributed to <b>TribalScholar</b>, an AI-enabled scholarship and fellowship management system.</samp></li>
-<li>🌱 <samp>Currently focused on strengthening programming fundamentals, building meaningful projects, and exploring software development &amp; AI/ML research.</samp></li>
-<li>⚡ <samp>Interests: Python, Java, Web Development, Data Structures &amp; Algorithms (DSA), and Artificial Intelligence &amp; Machine Learning.</samp></li>
+<li>🔭 <samp>Exploring Artificial Intelligence, Machine Learning, and Web Development.</samp></li>
+<li>🌱 <samp>Currently focused on strengthening programming fundamentals and building meaningful projects.</samp></li>
+<li>💬 <samp>Ask me about Python, Java, Data Structures &amp; Algorithms, and Web Development.</samp></li>
+<li>⚡ <samp>Fun fact: Always curious, always learning, and always building.</samp></li>
 </ul>
+</div>
 
 ---
 
+<div>
 <h3><b><samp>Socials &amp; Links:</samp></b></h3>
 <p align="center">
 <a href="https://www.linkedin.com/in/swetagupta7499/"><img alt="Sweta's LinkedIn" width="30px" src="https://skills.syvixor.com/api/icons?i=linkedin&perline=12&radius=40" /></a>
 <a href="https://github.com/swetagupta7499-ctrl"><img alt="Sweta's GitHub" width="30px" src="https://skills.syvixor.com/api/icons?i=github&perline=12&radius=40" /></a>
 <a href="mailto:swetagupta@sitare.org"><img alt="Email Sweta" width="30px" src="https://skills.syvixor.com/api/icons?i=gmail&perline=12&radius=40" /></a>
 </p>
+</div>
 
 ---
 
@@ -58,13 +67,3 @@
 <h4><b><samp>Preferred AI (best on left to least on right)</samp></b></h4>
 
 ![](https://skills.syvixor.com/api/icons?i=claudeai,githubcopilot,deepseek&perline=12&radius=40)
-
-<hr>
-
-<h3><b><samp>Contribution Graph</samp></b></h3>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
-</picture>
