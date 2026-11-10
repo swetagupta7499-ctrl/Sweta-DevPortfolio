@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/main/Swetaphotos.jpeg" width="200px" style="border-radius: 50%;" alt="Sweta Gupta">
+  <img src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/main/Swetaphoto.jpeg" width="200px" style="border-radius: 50%;" alt="Sweta Gupta">
 </p>
 
 ## <p align="center"><h4 align="center"><samp> Computer Science Undergraduate | AI/ML & Web Developer | Problem Solver </samp></h4></p>
@@ -31,44 +31,4 @@
 <div>
 <h3><b><samp>Socials & Links:</samp></b></h3>
 <p align="center">
-<a href="https://www.linkedin.com/in/swetagupta7499/"><img alt="Sweta's LinkedIn" width="30px" src="https://skills.syvixor.com/api/icons?i=linkedin&perline=12&radius=40" /></a>
-<a href="https://github.com/swetagupta7499-ctrl"><img alt="Sweta's GitHub" width="30px" src="https://skills.syvixor.com/api/icons?i=github&perline=12&radius=40" /></a>
-<a href="mailto:swetagupta@sitare.org"><img alt="Email Sweta" width="30px" src="https://skills.syvixor.com/api/icons?i=gmail&perline=12&radius=40" /></a>
-</p>
-</div>
-
----
-
-<br>
-
-<h3><b><samp>Skills</samp></b></h3>
-
-<h4><b><samp>Languages</samp></b></h4>
-
-![](https://skills.syvixor.com/api/icons?i=python,java,javascript,cpp&perline=18)
-
-<h4><b><samp>Frontend & Web</samp></b></h4>
-
-![](https://skills.syvixor.com/api/icons?i=html,css,tailwind,javascript,bootstrap,md&perline=18)
-
-<h4><b><samp>Tools and Platform</samp></b></h4>
-
-<h4><b><samp>IDEs & Version Control</samp></b></h4>
-
-![](https://skills.syvixor.com/api/icons?i=git,github,vscode,pycharm,intellijidea,anaconda&perline=18)
-
-<h4><b><samp>Preferred AI (best on left to least on right)</samp></b></h4>
-
-![](https://skills.syvixor.com/api/icons?i=claudeai,githubcopilot,deepseek&perline=12&radius=40)
-
-<hr>
-
-<h3><b><samp>Contribution Graph</samp></b></h3>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
+<a href="https://www.linkedin.com/in/swetagupta7499/"><img alt="Sweta's LinkedIn" width="30px" src="
