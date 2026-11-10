@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/main/Swetaphoto.jpeg" width="200px" style="border-radius: 50%;" alt="Sweta Gupta">
+  <img src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/main/Swetaphotos.jpeg" width="200px" style="border-radius: 50%;" alt="Sweta Gupta">
 </p>
 
 ## <p align="center"><h4 align="center"><samp> Computer Science Undergraduate | AI/ML & Web Developer | Problem Solver </samp></h4></p>
