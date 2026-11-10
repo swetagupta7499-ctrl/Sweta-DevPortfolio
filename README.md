@@ -4,11 +4,14 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2580ff&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;Smart+India+Hackathon+Participant;" alt="Typing SVG" />
 
-<br><br>
-
-<img src="Swetaphoto.jpeg" width="200" alt="Sweta Gupta">
-
 </div>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile_card_dark.svg">
+    <img alt="terminal-style profile card" src="profile_card_light.svg">
+  </picture>
+</p>
 
 <h4 align="center"><samp>"Always curious, always learning, and always building."</samp></h4>
 
