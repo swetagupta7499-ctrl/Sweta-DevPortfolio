@@ -7,17 +7,13 @@
 </div>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/main/profile_card_dark.svg">
-    <img alt="terminal-style profile card" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/main/profile_card_light.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/main/Swetaphoto.jpeg" width="200px" style="border-radius: 50%;" alt="Sweta Gupta">
 </p>
 
 ## <p align="center"><h4 align="center"><samp> Computer Science Undergraduate | AI/ML & Web Developer | Problem Solver </samp></h4></p>
 
 <div>
-<img align="right" src="https://github.com/amandewatnitrr/amandewatnitrr/blob/main/terminal.gif" width="40%"/>
-  <br>
+<br>
 
 <ul>
 <li>🎓 <samp><b>Computer Science Undergraduate @ Sitare University</b></samp></li>
@@ -70,9 +66,9 @@
 <h3><b><samp>Contribution Graph</samp></b></h3>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
 </picture>
 
 <br>
