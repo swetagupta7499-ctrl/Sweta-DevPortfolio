@@ -1,76 +1,37 @@
-<!-- Portfolio of Sweta Gupta -->
+<div align="center">
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0A66C2&height=180&section=header&text=Hey%2C%20I'm%20Sweta%20Gupta!&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=CS%20Undergrad%20%C2%B7%20AI%2FML%20Enthusiast%20%C2%B7%20Developer&descAlignY=58&descSize=18" width="100%"/>
 
-![Sweta Gupta — Portfolio Banner](assets/header.svg)
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;Smart+India+Hackathon+Participant;" alt="Typing SVG" />
 
-# Hi, I'm Sweta Gupta
+</div>
 
-Computer Science Undergraduate at Sitare University  
-Interested in programming, problem-solving, software development, and AI/ML.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/main/profile_card_dark.svg">
+    <img alt="terminal-style profile card" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/swetagupta7499-ctrl/main/profile_card_light.svg">
+  </picture>
+</p>
 
-[LinkedIn](https://linkedin.com/in/sweta-gupta-463544418/) · [GitHub](https://github.com/swetagupta7499-ctrl)
+## <p align="center"><h4 align="center"><samp> "Always curious, always learning, and always building." </samp></h4></p>
+
+<div>
+<br>
+
+<ul>
+<li>🎓 <samp><b>Computer Science Undergraduate @ Sitare University</b></samp></li>
+<li>💻 <samp>Passionate about programming, problem-solving, and turning ideas into practical solutions through code.</samp></li>
+<li>🏆 <samp><b>Smart India Hackathon Participant:</b> Contributed to <b>TribalScholar</b>, an AI-enabled scholarship and fellowship management system.</samp></li>
+<li>🌱 <samp>Currently focused on strengthening programming fundamentals, building meaningful projects, and exploring software development & AI/ML research.</samp></li>
+<li>⚡ <samp>Interests: Python, Java, Web Development, Data Structures & Algorithms (DSA), and Artificial Intelligence & Machine Learning.</samp></li>
+</ul>
+</div>
 
 ---
 
-## About Me
-
-![About Sweta Gupta](assets/about.svg)
-
-I'm a Computer Science undergraduate at Sitare University with a passion
-for programming, problem-solving, and exploring emerging technologies.
-
-I enjoy turning ideas into practical solutions through code and
-continuously challenging myself to learn and build new things.
-
-I believe in learning by doing. Working on projects, experimenting with
-new technologies, and tackling problems help me deepen my understanding
-and strengthen my skills.
-
-My technical interests include:
-
-- Python and Java
-- Web Development
-- Data Structures and Algorithms
-- Artificial Intelligence and Machine Learning
-
-## Skills & Technical Interests
-
-![Skills and Technical Interests](assets/skills.svg)
-
-| Area | Skills and Interests |
-| --- | --- |
-| Programming | Python, Java |
-| Problem Solving | Data Structures and Algorithms |
-| Development | Web Development |
-| Emerging Technologies | Artificial Intelligence and Machine Learning |
-
-## Featured Project
-
-![TribalScholar — Featured Project](assets/tribalscholar.svg)
-
-### TribalScholar
-
-An AI-enabled scholarship and fellowship management system.
-
-I contributed to TribalScholar while participating in the Smart India
-Hackathon. This experience reflects my interest in working on practical
-solutions and learning through project-based collaboration.
-
-<!-- Add a verified repository or demo link here when available. -->
-
-## What I'm Focused On
-
-- Strengthening my programming fundamentals.
-- Developing my understanding of Data Structures and Algorithms.
-- Building meaningful projects that turn ideas into practical solutions.
-- Exploring opportunities in software development and AI/ML research.
-
-## About This Portfolio
-
-This repository contains my personal portfolio and its Python generator.
-
-The generator creates the banner, terminal-style introduction, skill
-cards, project card, footer, and README.
-
-### Repository Structure
-
-```text
+<div>
+<h3><b><samp>Socials & Links:</samp></b></h3>
+<p align="center">
+<a href="https://www.linkedin.com/in/swetagupta7499/"><img alt="Sweta's LinkedIn" width="30px" src="https://skills.syvixor.com/api/icons?i=linkedin&perline=12&radius=40" /></a>
+<a href="https://github.com/swetagupta7499-ctrl"><img alt="Sweta's GitHub" width="30px" src="https://skills.syvixor.com/api/icons?i=github&perline=12&radius=40" /></a>
+<a href="mailto:swetagupta@sitare.org"><img alt="Email Sweta" width="30
