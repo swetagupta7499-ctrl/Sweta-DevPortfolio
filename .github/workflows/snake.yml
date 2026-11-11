@@ -23,6 +23,17 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Slow down the snake
+        run: |
+          python3 - <<'EOF'
+          import re, glob
+          FACTOR = 1.7
+          for p in glob.glob("dist/*.svg"):
+              s = open(p).read()
+              s = re.sub(r"(\d+(?:\.\d+)?)ms", lambda m: str(round(float(m.group(1)) * FACTOR)) + "ms", s)
+              open(p, "w").write(s)
+          EOF
+
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
