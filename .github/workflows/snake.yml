@@ -26,12 +26,21 @@ jobs:
       - name: Slow down the snake
         run: |
           python3 - <<'EOF'
-          import re, glob
-          FACTOR = 1.7
+          import re, glob, sys
+          FACTOR = 2.0
+          total = 0
+          pat = re.compile(r"(?<![\w.#-])(\d+(?:\.\d+)?)(ms|s)(?![\w-])")
+          def fix(m):
+              global total
+              total += 1
+              return str(round(float(m.group(1)) * FACTOR, 2)) + m.group(2)
           for p in glob.glob("dist/*.svg"):
               s = open(p).read()
-              s = re.sub(r"(\d+(?:\.\d+)?)ms", lambda m: str(round(float(m.group(1)) * FACTOR)) + "ms", s)
+              s = pat.sub(fix, s)
               open(p, "w").write(s)
+          print("durations changed:", total)
+          if total == 0:
+              sys.exit("no animation durations found")
           EOF
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
