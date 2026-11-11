@@ -72,3 +72,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
 </picture>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7a9de8&height=140&section=footer" width="100%"/>
