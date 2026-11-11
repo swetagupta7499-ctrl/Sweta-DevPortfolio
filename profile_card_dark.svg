@@ -1,1 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="680"
+     viewBox="0 0 1200 680"
+     role="img"
+     aria-labelledby="cardTitle cardDescription">
 
+  <title id="cardTitle">Sweta Gupta — Developer Profile</title>
+
+  <desc id="cardDescription">
+    Sweta Gupta, Computer Science undergraduate at Sitare University.
+    Interested in Python, Java, web development, data structures and
+    algorithms, and artificial intelligence and machine learning.
+    Contributor to TribalScholar during the Smart India Hackathon.
+  </desc>
+
+  <defs>
+
+    <!-- Main accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Dark background -->
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080d18"/>
+    </linearGradient>
+
+    <!-- Subtle decorative glow -->
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Fine background grid -->
+    <pattern id="grid"
+             width="28"
+             height="28"
+             patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28"
+            fill="none"
+            stroke="#94a3b8"
+            stroke-opacity="0.035"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Outer card -->
+  <rect x="1" y="1"
+        width="1198" height="678"
+        rx="22"
+        fill="url(#background)"
+        stroke="#30394c"
+        stroke-width="2"/>
+
+  <rect x="2" y="2"
+        width="1196" height="676"
+        rx="21"
+        fill="url(#grid)"/>
+
+  <ellipse cx="210" cy="310"
+           rx="240" ry="270"
+           fill="url(#glow)"/>
+
+  <!-- Window title bar -->
+  <path d="M23 2H1177Q1198 2 1198 23V53H2V23Q2 2 23 2"
+        fill="#161e2e"/>
+
+  <circle cx="27" cy="27" r="6" fill="#ff5f57"/>
+  <circle cx="49" cy="27" r="6" fill="#febc2e"/>
+  <circle cx="71" cy="27" r="6" fill="#28c840"/>
+
+  <text x="98" y="32"
+        font-family="Consolas, Menlo, monospace"
+        font-size="13"
+        fill="#94a3b8">
+    sweta@portfolio: ~/building-my-future
+  </text>
+
+  <text x="1167" y="32"
+        text-anchor="end"
+        font-family="Consolas, Menlo, monospace"
+        font-size="11"
+        fill="#a78bfa">
+    PROFILE / 01
+  </text>
+
+  <!-- Left profile panel -->
+  <rect x="25" y="77"
+        width="358" height="518"
+        rx="16"
+        fill="#0d1423"
+        stroke="#273247"/>
+
+  <text x="49" y="111"
+        font-family="Consolas, Menlo, monospace"
+        font-size="12"
+        fill="#64748b">
+    $ python introduce_sweta.py
+  </text>
+
+  <!-- ASCII-inspired SG monogram -->
+  <g font-family="Consolas, Menlo, monospace"
+     font-size="15"
+     font-weight="700"
+     fill="url(#accent)"
+     xml:space="preserve">
+
+    <text x="65" y="183"> ███████╗ ██████╗ </text>
+    <text x="65" y="207"> ██╔════╝██╔════╝ </text>
+    <text x="65" y="231"> ███████╗██║  ███╗</text>
+    <text x="65" y="255"> ╚════██║██║   ██║</text>
+    <text x="65" y="279"> ███████║╚██████╔╝</text>
+    <text x="65" y="303"> ╚══════╝ ╚═════╝ </text>
+
+  </g>
+
+  <text x="204" y="353"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="31"
+        font-weight="700"
+        fill="#f1f5f9">
+    Sweta Gupta
+  </text>
+
+  <text x="204" y="382"
+        text-anchor="middle"
+        font-family="Consolas, Menlo, monospace"
+        font-size="12"
+        fill="#a78bfa">
+    LEARN. BUILD. REPEAT.
+  </text>
+
+  <line x1="65" y1="410" x2="343" y2="410"
+        stroke="#29354b"/>
+
+  <g font-family="Consolas, Menlo, monospace"
+     font-size="13"
+     text-anchor="middle">
+
+    <text x="204" y="445" fill="#cbd5e1">
+      Computer Science Undergraduate
+    </text>
+
+    <text x="204" y="471" fill="#94a3b8">
+      Sitare University
+    </text>
+
+  </g>
+
+  <rect x="79" y="505"
+        width="250" height="40"
+        rx="20"
+        fill="#17263b"
+        stroke="#294666"/>
+
+  <circle cx="101" cy="525" r="4" fill="#7ee787"/>
+
+  <text x="119" y="530"
+        font-family="Consolas, Menlo, monospace"
+        font-size="12"
+        fill="#93c5fd">
+    Learning by building
+  </text>
+
+  <!-- Right information panel -->
+  <g font-family="Consolas, Menlo, monospace">
+
+    <text x="416" y="106"
+          font-size="17"
+          font-weight="700"
+          fill="#c4b5fd">
+      swetagupta7499-ctrl@github
+    </text>
+
+    <text x="416" y="132"
+          font-size="12"
+          fill="#64748b">
+      $ cat developer_profile.txt
+    </text>
+
+    <line x1="416" y1="149" x2="1160" y2="149"
+          stroke="#2b354a"/>
+
+    <!-- Introduction -->
+    <text x="416" y="178"
+          font-size="13"
+          font-weight="700"
+          fill="#f9a8d4">
+      01 / ABOUT ME
+    </text>
+
+    <g font-size="13" fill="#cbd5e1">
+      <text x="416" y="205">
+        Turning ideas into practical solutions through code.
+      </text>
+      <text x="416" y="228">
+        Curious about emerging tech. Motivated by problem-solving.
+      </text>
+      <text x="416" y="251">
+        Learning by doing, experimenting, and building new things.
+      </text>
+    </g>
+
+    <!-- Interests -->
+    <text x="416" y="292"
+          font-size="13"
+          font-weight="700"
+          fill="#7dd3fc">
+      02 / SKILLS &amp; TECHNICAL INTERESTS
+    </text>
+
+    <text x="416" y="320" font-size="13">
+      <tspan fill="#64748b">Languages   </tspan>
+      <tspan fill="#e2e8f0">Python · Java</tspan>
+    </text>
+
+    <text x="416" y="346" font-size="13">
+      <tspan fill="#64748b">Development </tspan>
+      <tspan fill="#e2e8f0">Web Development</tspan>
+    </text>
+
+    <text x="416" y="372" font-size="13">
+      <tspan fill="#64748b">Foundations </tspan>
+      <tspan fill="#e2e8f0">Data Structures &amp; Algorithms</tspan>
+    </text>
+
+    <text x="416" y="398" font-size="13">
+      <tspan fill="#64748b">Exploring   </tspan>
+      <tspan fill="#e2e8f0">Artificial Intelligence &amp; Machine Learning</tspan>
+    </text>
+
+    <!-- Project -->
+    <text x="416" y="440"
+          font-size="13"
+          font-weight="700"
+          fill="#c4b5fd">
+      03 / PROJECT EXPERIENCE
+    </text>
+
+    <text x="416" y="469" font-size="14" fill="#f1f5f9">
+      TribalScholar
+      <tspan font-size="12" fill="#94a3b8"> / Smart India Hackathon</tspan>
+    </text>
+
+    <text x="416" y="495" font-size="13" fill="#cbd5e1">
+      Contributed to an AI-enabled scholarship and fellowship
+    </text>
+
+    <text x="416" y="518" font-size="13" fill="#cbd5e1">
+      management system.
+    </text>
+
+    <!-- Focus -->
+    <text x="416" y="558" font-size="12">
+      <tspan fill="#7ee787">NOW → </tspan>
+      <tspan fill="#cbd5e1">Strengthening fundamentals &amp; building meaningful projects.</tspan>
+    </text>
+
+  </g>
+
+  <!-- Footer divider -->
+  <line x1="26" y1="613" x2="1174" y2="613"
+        stroke="#29354b"/>
+
+  <!-- Social links -->
+  <a href="https://github.com/swetagupta7499-ctrl">
+    <rect x="27" y="631"
+          width="106" height="30"
+          rx="8"
+          fill="#172033"
+          stroke="#334155"/>
+
+    <text x="80" y="651"
+          text-anchor="middle"
+          font-family="Consolas, Menlo, monospace"
+          font-size="12"
+          fill="#e2e8f0">
+      GitHub ↗
+    </text>
+  </a>
+
+  <a href="https://linkedin.com/in/sweta-gupta-463544418/">
+    <rect x="145" y="631"
+          width="119" height="30"
+          rx="8"
+          fill="#13243b"
+          stroke="#294666"/>
+
+    <text x="204" y="651"
+          text-anchor="middle"
+          font-family="Consolas, Menlo, monospace"
+          font-size="12"
+          fill="#93c5fd">
+      LinkedIn ↗
+    </text>
+  </a>
+
+  <text x="1170" y="651"
+        text-anchor="end"
+        font-family="Consolas, Menlo, monospace"
+        font-size="12"
+        fill="#a78bfa">
+    Always curious, always learning, and always building.
+  </text>
+
+</svg>
