@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2580ff&height=180&section=header&text=Hey%2C%20I'm%20Sweta!&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=CSE%20Undergraduate%20%7C%20Software%20Developer%20%7C%20AI%2FML%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=570&size=22&pause=1000&color=2580ff&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=2580ff&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;" alt="Typing SVG" />
 
 </div>
 
@@ -68,7 +68,7 @@
 <h3><b><samp>Contribution Graph</samp></b></h3>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta_DevPortfolio/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
 </picture>
