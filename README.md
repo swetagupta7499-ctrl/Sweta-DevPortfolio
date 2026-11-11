@@ -13,7 +13,7 @@
   </picture>
 </p>
 
-<h4 align="center"><samp>"Always curious, always learning, and always building."</samp></h4>
+<h4 align="center"><samp>"Driven by curiosity, focused on innovation, building for impact."</samp></h4>
 
 <div>
 <img align="right" src="side-image.svg" width="40%"/>
@@ -49,7 +49,7 @@
 
 <h4><b><samp>Languages</samp></b></h4>
 
-![](https://skills.syvixor.com/api/icons?i=python,java,javascript,cpp&perline=18)
+![](https://skills.syvixor.com/api/icons?i=python,java,javascript&perline=18)
 
 <h4><b><samp>Frontend &amp; Web</samp></b></h4>
 
@@ -61,7 +61,7 @@
 
 <h4><b><samp>Preferred AI (best on left to least on right)</samp></b></h4>
 
-![](https://skills.syvixor.com/api/icons?i=claudeai,githubcopilot,deepseek&perline=12&radius=40)
+![](https://skills.syvixor.com/api/icons?i=claudeai,githubcopilot,deepseek,chatgpt,gemini,perplexity&perline=12&radius=40)
 
 <hr>
 
