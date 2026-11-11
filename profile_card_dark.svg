@@ -1,311 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200"
-     height="680"
-     viewBox="0 0 1200 680"
-     role="img"
-     aria-labelledby="cardTitle cardDescription">
-
-  <title id="cardTitle">Sweta Gupta — Developer Profile</title>
-
-  <desc id="cardDescription">
-    Sweta Gupta, Computer Science undergraduate at Sitare University.
-    Interested in Python, Java, web development, data structures and
-    algorithms, and artificial intelligence and machine learning.
-    Contributor to TribalScholar during the Smart India Hackathon.
-  </desc>
-
-  <defs>
-
-    <!-- Main accent gradient -->
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f472b6"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
-    </linearGradient>
-
-    <!-- Dark background -->
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#080d18"/>
-    </linearGradient>
-
-    <!-- Subtle decorative glow -->
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.13"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Fine background grid -->
-    <pattern id="grid"
-             width="28"
-             height="28"
-             patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28"
-            fill="none"
-            stroke="#94a3b8"
-            stroke-opacity="0.035"/>
-    </pattern>
-
-  </defs>
-
-  <!-- Outer card -->
-  <rect x="1" y="1"
-        width="1198" height="678"
-        rx="22"
-        fill="url(#background)"
-        stroke="#30394c"
-        stroke-width="2"/>
-
-  <rect x="2" y="2"
-        width="1196" height="676"
-        rx="21"
-        fill="url(#grid)"/>
-
-  <ellipse cx="210" cy="310"
-           rx="240" ry="270"
-           fill="url(#glow)"/>
-
-  <!-- Window title bar -->
-  <path d="M23 2H1177Q1198 2 1198 23V53H2V23Q2 2 23 2"
-        fill="#161e2e"/>
-
-  <circle cx="27" cy="27" r="6" fill="#ff5f57"/>
-  <circle cx="49" cy="27" r="6" fill="#febc2e"/>
-  <circle cx="71" cy="27" r="6" fill="#28c840"/>
-
-  <text x="98" y="32"
-        font-family="Consolas, Menlo, monospace"
-        font-size="13"
-        fill="#94a3b8">
-    sweta@portfolio: ~/building-my-future
-  </text>
-
-  <text x="1167" y="32"
-        text-anchor="end"
-        font-family="Consolas, Menlo, monospace"
-        font-size="11"
-        fill="#a78bfa">
-    PROFILE / 01
-  </text>
-
-  <!-- Left profile panel -->
-  <rect x="25" y="77"
-        width="358" height="518"
-        rx="16"
-        fill="#0d1423"
-        stroke="#273247"/>
-
-  <text x="49" y="111"
-        font-family="Consolas, Menlo, monospace"
-        font-size="12"
-        fill="#64748b">
-    $ python introduce_sweta.py
-  </text>
-
-  <!-- ASCII-inspired SG monogram -->
-  <g font-family="Consolas, Menlo, monospace"
-     font-size="15"
-     font-weight="700"
-     fill="url(#accent)"
-     xml:space="preserve">
-
-    <text x="65" y="183"> ███████╗ ██████╗ </text>
-    <text x="65" y="207"> ██╔════╝██╔════╝ </text>
-    <text x="65" y="231"> ███████╗██║  ███╗</text>
-    <text x="65" y="255"> ╚════██║██║   ██║</text>
-    <text x="65" y="279"> ███████║╚██████╔╝</text>
-    <text x="65" y="303"> ╚══════╝ ╚═════╝ </text>
-
-  </g>
-
-  <text x="204" y="353"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="31"
-        font-weight="700"
-        fill="#f1f5f9">
-    Sweta Gupta
-  </text>
-
-  <text x="204" y="382"
-        text-anchor="middle"
-        font-family="Consolas, Menlo, monospace"
-        font-size="12"
-        fill="#a78bfa">
-    LEARN. BUILD. REPEAT.
-  </text>
-
-  <line x1="65" y1="410" x2="343" y2="410"
-        stroke="#29354b"/>
-
-  <g font-family="Consolas, Menlo, monospace"
-     font-size="13"
-     text-anchor="middle">
-
-    <text x="204" y="445" fill="#cbd5e1">
-      Computer Science Undergraduate
-    </text>
-
-    <text x="204" y="471" fill="#94a3b8">
-      Sitare University
-    </text>
-
-  </g>
-
-  <rect x="79" y="505"
-        width="250" height="40"
-        rx="20"
-        fill="#17263b"
-        stroke="#294666"/>
-
-  <circle cx="101" cy="525" r="4" fill="#7ee787"/>
-
-  <text x="119" y="530"
-        font-family="Consolas, Menlo, monospace"
-        font-size="12"
-        fill="#93c5fd">
-    Learning by building
-  </text>
-
-  <!-- Right information panel -->
-  <g font-family="Consolas, Menlo, monospace">
-
-    <text x="416" y="106"
-          font-size="17"
-          font-weight="700"
-          fill="#c4b5fd">
-      swetagupta7499-ctrl@github
-    </text>
-
-    <text x="416" y="132"
-          font-size="12"
-          fill="#64748b">
-      $ cat developer_profile.txt
-    </text>
-
-    <line x1="416" y1="149" x2="1160" y2="149"
-          stroke="#2b354a"/>
-
-    <!-- Introduction -->
-    <text x="416" y="178"
-          font-size="13"
-          font-weight="700"
-          fill="#f9a8d4">
-      01 / ABOUT ME
-    </text>
-
-    <g font-size="13" fill="#cbd5e1">
-      <text x="416" y="205">
-        Turning ideas into practical solutions through code.
-      </text>
-      <text x="416" y="228">
-        Curious about emerging tech. Motivated by problem-solving.
-      </text>
-      <text x="416" y="251">
-        Learning by doing, experimenting, and building new things.
-      </text>
-    </g>
-
-    <!-- Interests -->
-    <text x="416" y="292"
-          font-size="13"
-          font-weight="700"
-          fill="#7dd3fc">
-      02 / SKILLS &amp; TECHNICAL INTERESTS
-    </text>
-
-    <text x="416" y="320" font-size="13">
-      <tspan fill="#64748b">Languages   </tspan>
-      <tspan fill="#e2e8f0">Python · Java</tspan>
-    </text>
-
-    <text x="416" y="346" font-size="13">
-      <tspan fill="#64748b">Development </tspan>
-      <tspan fill="#e2e8f0">Web Development</tspan>
-    </text>
-
-    <text x="416" y="372" font-size="13">
-      <tspan fill="#64748b">Foundations </tspan>
-      <tspan fill="#e2e8f0">Data Structures &amp; Algorithms</tspan>
-    </text>
-
-    <text x="416" y="398" font-size="13">
-      <tspan fill="#64748b">Exploring   </tspan>
-      <tspan fill="#e2e8f0">Artificial Intelligence &amp; Machine Learning</tspan>
-    </text>
-
-    <!-- Project -->
-    <text x="416" y="440"
-          font-size="13"
-          font-weight="700"
-          fill="#c4b5fd">
-      03 / PROJECT EXPERIENCE
-    </text>
-
-    <text x="416" y="469" font-size="14" fill="#f1f5f9">
-      TribalScholar
-      <tspan font-size="12" fill="#94a3b8"> / Smart India Hackathon</tspan>
-    </text>
-
-    <text x="416" y="495" font-size="13" fill="#cbd5e1">
-      Contributed to an AI-enabled scholarship and fellowship
-    </text>
-
-    <text x="416" y="518" font-size="13" fill="#cbd5e1">
-      management system.
-    </text>
-
-    <!-- Focus -->
-    <text x="416" y="558" font-size="12">
-      <tspan fill="#7ee787">NOW → </tspan>
-      <tspan fill="#cbd5e1">Strengthening fundamentals &amp; building meaningful projects.</tspan>
-    </text>
-
-  </g>
-
-  <!-- Footer divider -->
-  <line x1="26" y1="613" x2="1174" y2="613"
-        stroke="#29354b"/>
-
-  <!-- Social links -->
-  <a href="https://github.com/swetagupta7499-ctrl">
-    <rect x="27" y="631"
-          width="106" height="30"
-          rx="8"
-          fill="#172033"
-          stroke="#334155"/>
-
-    <text x="80" y="651"
-          text-anchor="middle"
-          font-family="Consolas, Menlo, monospace"
-          font-size="12"
-          fill="#e2e8f0">
-      GitHub ↗
-    </text>
-  </a>
-
-  <a href="https://linkedin.com/in/sweta-gupta-463544418/">
-    <rect x="145" y="631"
-          width="119" height="30"
-          rx="8"
-          fill="#13243b"
-          stroke="#294666"/>
-
-    <text x="204" y="651"
-          text-anchor="middle"
-          font-family="Consolas, Menlo, monospace"
-          font-size="12"
-          fill="#93c5fd">
-      LinkedIn ↗
-    </text>
-  </a>
-
-  <text x="1170" y="651"
-        text-anchor="end"
-        font-family="Consolas, Menlo, monospace"
-        font-size="12"
-        fill="#a78bfa">
-    Always curious, always learning, and always building.
-  </text>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1126" height="686.6" viewBox="0 0 1126 686.6" font-family="Fira Code, Consolas, Menlo, monospace" xmlns:c2pa="http://c2pa.org/manifest">
+<rect width="100%" height="100%" fill="#ffffff" rx="10"/>
+<text x="24" y="24.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                                                        ..</text>
+<text x="24" y="33.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                                            .::;;i1fLLLCGGLLCGCL1;, .</text>
+<text x="24" y="42.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                                          ,1C88888@888888888888@@80GGCft:,</text>
+<text x="24" y="52.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                                      .:tL08@8888888888888888888888@8@8@88Gt;.</text>
+<text x="24" y="61.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                                    iLG8@8888888@888@8@8888@88@88@88888888@80Gf1:.</text>
+<text x="24" y="71.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                                  :C8@8888@@8@@@8@@8880@8@88@888@8888@8@888888@88G1</text>
+<text x="24" y="80.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                                 18@888@8@888888GG00GGCC008800GG0G008G088@8@888888@Li.</text>
+<text x="24" y="89.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                               ;C@888@88888880GCCfffLft1tLCGGCLtfLCCCLLGC08888@8@88@@G;</text>
+<text x="24" y="99.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                             .C@888@8888800GGCCCCCCGCLfttttfCGLffftffLCfLLCG0888888888@1</text>
+<text x="24" y="108.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                            i0@8@@88@8800GGCCGCCCGCCCCCffttttttftfffLLCCLLLLCGG008088888f</text>
+<text x="24" y="118.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                          .0@88@8@8888080000G0GCCCCLLLfftt11111ttttfLLCGG00GCGG000808008@G;</text>
+<text x="24" y="127.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                          t@88@@88888@8888880CCLLfttttttii;;iiiii111ttfLGG8800GGG08888888@8t</text>
+<text x="24" y="136.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                        .f@88@8888@8@8@@800Cftt11i111i;i;:;;;;;;;;;iii11tfC0@8800G08888888@@C</text>
+<text x="24" y="146.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                        i@88@8@8@@8@@@80Cft1i;;;:;;::;::,:,::,:::;::;;;iii1fL0@88800888888@8@G.</text>
+<text x="24" y="155.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                       .G8888@8@8@@@0GLt1i;:::,:,:,,,,,,,.,,,,,,,,:,,::;;iii1tL08@8888888@8@8@t</text>
+<text x="24" y="165.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                       C@8@@8@8@@80GLt1i;:::,,,,,.,...........,.,,,,,,::;;;ii11tL08@8888@@@8888.</text>
+<text x="24" y="174.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                      .8@8@8@8@@0CCf11;;:::,,,........... . .........,,,:::;;ii11tLG@8888@8@@@8,</text>
+<text x="24" y="183.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                      f@8@8@@8@0Lff1i;;;:,,,,.....             . ....,,,,:::;;;i1itfC@@@@@@@8@0.</text>
+<text x="24" y="193.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                     .888@8@8@0fLtii;;:::,,.........         .  .. ....,:::::;;;iiitfG8@8@8@@@8.</text>
+<text x="24" y="202.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                     f@8@8@@80CLti;i;:::,,.,....... . .        . . ...,,:::::::;;;i1tfG88@@8@8@;</text>
+<text x="24" y="212.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                    ,88@8@8880Ltii;;:::,,.....,....    .       . ......,,,::::,,::;;itfG@8@@@8@1</text>
+<text x="24" y="221.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                   .0888@8@8Gftiii::;::,,,.. . . . ...  .     . .  ..,;;i11111t1i,::;i1fG88@8@@f</text>
+<text x="24" y="230.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                   i@8@8@@8Cft11iitLLLffftftt1i;:.,..... . ....,,:1tLG00888000000GLti;i1fG@8@8@t .</text>
+<text x="24" y="240.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                   1@88@8@0ftttL00000080888888800Lii;,,... ..,:;tLG880GGCftttffLCGG0Gfiitf0@@8@1</text>
+<text x="24" y="249.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                   ;@888@80t1tCGCCLtt1iiiii1tttfLCL11;,.....,,i1ffffttt1i;;:;::;;;i1fL1i1tC8@8@;</text>
+<text x="24" y="259.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                    ;0@@8@Gt1ttt111i11ttt1t1ttt111t11i,.....,:itt111tffftftftftt1i;;;i1i11L88@@;</text>
+<text x="24" y="268.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                     .C@8@G1iii111tLCGG888888GLCffffL1;,....,;tfftLLCLL888880G0GCft1i;;ii1f088@t</text>
+<text x="24" y="277.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                      .8@8G1i;;;1tfG0Gtf@@88@t ;ffftLfi:,,,,;1Lftfffi 1@800@L,fGGCt1;;;:;1fG@8@t</text>
+<text x="24" y="287.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                      :88@G1i;;;i1fCGfiiCGGGC;;:itftLf;:,,,:;1Lftft;:::LGGGC;;tLCf1i;::;;1fG8@@1</text>
+<text x="24" y="296.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                      ,@8@C1;;;;;:;1tffftftt1111iitLf1i:,,,:;1ffLti11ttttttttfff1i::::::;itG888:</text>
+<text x="24" y="306.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                       iG0C1;:::,,,::;ii1i1ii;;;i111i;i;:,::;ii1ft1iii11i1i11ii;:,,,,,::;1tC0CL,</text>
+<text x="24" y="315.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                        18Ci;:,.....,,:::::::;ii;iiii1i:,,,:;iiii11iii;::::::,,,,,,.,,,:;itG01f:</text>
+<text x="24" y="324.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                        t001;:,,....,,,:::;:;::::i11ti::,..,:;1t11i:::;;;::::,:,.....,,:;1t00;;1</text>
+<text x="24" y="334.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                        tG8f::.... . ...,.,.,..,,;tft;,,.. .,:iftt1:,.,,,,,..... ....,,:;if0C1;t.</text>
+<text x="24" y="343.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                       .LG8C::,....     . .   ..,11i;:,.   ..,::;tt:.. .   . .    ...,,:;1C8Cf1t.</text>
+<text x="24" y="353.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                        LLC81:,... .           .:t;:tGL;,,,:1CL1::ti..           ...,,,;1t0Lt1f1</text>
+<text x="24" y="362.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                        1CfGG;:,... . . . .  ...,i1tLLLf1i1tttffti1:,.... . . ......,::itCG1tff,</text>
+<text x="24" y="371.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                        .fff0fi;,,,............,,,:;;::;;:;:..:;;;:,,,.....,....,,,:;;itfGf;f1t.</text>
+<text x="24" y="381.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                         if;tG11;:,,,,,,,,....,.,,:,:;;,,...,:;;:::::,::::::::,:,;;ii1tLLG;:;i;,</text>
+<text x="24" y="390.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                         ;LtiGL11;::,,,,:,,:,,,::::;i;;,.....,;i1i;iii1ii1i;;:::;;ii1tffG0GCLGLf.  .</text>
+<text x="24" y="400.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                          ;f1fCt1i;,,,,,,::::;ii1;;;;:;:,,,:,;iii111fffLLLfi;::;;iiittfL0@80008@0i.</text>
+<text x="24" y="409.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                             . ;fi;;,,,,,,:itft1ttffffffft11fffLfLCCCLfLfLt:::::;iii1tfG@@@@8@88@@G1.</text>
+<text x="24" y="418.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                                if:;::,,,,.:ttfffLfft1i11iiii1;iii11iiii11;:::;ii1i1tfC8@@8@@@@@88@@0f,</text>
+<text x="24" y="428.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                                 1t;;;:::.,,;i1i;;iii::.  .. ..,;;;i1i;i;;;:;ii1111ttL8@@@@@@@@@@@@8@88f.</text>
+<text x="24" y="437.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                                 .1fii;;;:,::;;;;;i;;::::;i;i:;;;iiii;;;;;;;;ii1i1ttC8@@@8@@8@8@@@@@88@@81.</text>
+<text x="24" y="447.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                                   ifi1i1;;:::;:;;;;;;;i11i1iiiiii;;:;:;::;;ii11ttfG@@@@@@@@@@@@8@8@@8888@G;</text>
+<text x="24" y="456.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                                    1t1i1iii;::::;::;::,,:,,.,,:,:::::::::ii111ttL8@@@@8@@8@@@8@@@8@8@@@888@L.</text>
+<text x="24" y="465.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                                    :Cf111111;:;:::::,,... . ...,,,:,:,:;itttttLCG@@@@@@@@@@8@@@8@@@88@8@@88@G;</text>
+<text x="24" y="475.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                                    ;GCLftttt1;::,:::,,...,,,,.,,::,:,:;1tftfLCCL0@@@8@8@@8@@@@@@@8@@8@8@8@888@t</text>
+<text x="24" y="484.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                                  . ;CLLLLLftt1i::::;::,:;;i;;:,::;;::i1tLLCCCLLC0@@@@@@@@@@@@8@@@@8@88@88@8888@C.</text>
+<text x="24" y="494.0" font-size="7.6" fill="#2580ff" xml:space="preserve">                                    1CffffLLLLff1i;;;;;;;iiii;;;iiiii1LLCCCLfffLL0@@8@@8@@8@@@@@@8@@8@8@@88@8888@C</text>
+<text x="24" y="503.4" font-size="7.6" fill="#2580ff" xml:space="preserve">                        ...... .,:tGCftftfffLLLLCLLftttt1t111ttttfffCCGCCLfffffLC0@@@@@@@@@@8@8@8@8@8@8@8@88@8888@L .</text>
+<text x="24" y="512.8" font-size="7.6" fill="#2580ff" xml:space="preserve">                      ,;t11LCCCG008GLf1111tttffffLLLCCCCCCCCCCCCCLLLLLLffftttttfL0@@@@@@8@@@@8@88@8@88@8@88@88@880@1</text>
+<text x="24" y="522.2" font-size="7.6" fill="#2580ff" xml:space="preserve">                    ..fCLfLCLCCCCCCGLf1iiii111tfftftttfftfffLffftftffffft1t1tttffG08088@8GCG8@@888888088888888888888,</text>
+<text x="24" y="531.6" font-size="7.6" fill="#2580ff" xml:space="preserve">                  .. :0LLfffftffLLCCft1i;;;;iii1111111iiiii;iiiii1111111iii1i1ttfLGGGGGG0G:;1t08@@88808088@88888@888L</text>
+<text x="24" y="541.0" font-size="7.6" fill="#2580ff" xml:space="preserve">              ,:;;:;::LLLffffLLLLCCCCftt1111111ttttt1ttt11111111tttftfttttttttffLCGGGCGCCt;i11f0L088@8@88888@8@88888@; .</text>
+<text x="24" y="550.4" font-size="7.6" fill="#2580ff" xml:space="preserve">           ,:iii;;;;;;iLffffLffLLCCLLLftt111tt1t1tttt111tt11111t1tftfttttttttffLLCCCCCLLLiiii11CGtfLCG088@@@888@8888@L</text>
+<text x="24" y="559.8" font-size="7.6" fill="#2580ff" xml:space="preserve">      ..,;;i;;;;;;;;;;;1ftttffffLfLffLftttt11tttt1ttt1t11111111ttttftttt1ttttfffLfLLLLfL1;;;i;i;CC11iiitfLC08@@8@8888@1</text>
+<text x="24" y="569.2" font-size="7.6" fill="#2580ff" xml:space="preserve">..,:;;;;iii;;;;;;;;;;;;;1ttttttftffffffftttttt1ttttttt1t1t1ttttttfftfttttttffffLffffftft;;;;;;iii11iiiiiiii1tfLG088@8@@L</text>
+<text x="24" y="578.6" font-size="7.6" fill="#2580ff" xml:space="preserve">;;i;;;;;;;;;;;;;;;;;;;;;;1t11tttttftttffffftttttttt1ttttt1tttttttftftttttfffffffffftttfi;;;;;;;;;;iiiiiiiiiiiiiii1tfLC08Gi.</text>
+<text x="24" y="588.0" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;;;;;;;11111tttttfttfffffffffffttt11t1t1t1tttftfffffffffffffffttttt1:;;;;;;;;;;;;;i;i;;i;;i;i;;;;;iiitLt;</text>
+<text x="24" y="597.4" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;;;;;;;;11t1111tttttttfLLLfffffffffttttttttffffffffffffffttttttttt1;;;;;;;;;;;;;;;;;i;i;i;i;;;i;;;;;;;:;i</text>
+<text x="24" y="606.8" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;;;;;;;;;i11111t11t1ttffLLLLLfLfffffffffffLffLfffffffLfttttttt11ti;;;;;;;;;;;;;;;;;;;;;;;;;i;;;;;;;;;;;;;</text>
+<text x="24" y="616.2" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;:;;;;;;;:;i1111111t1t1tfLLCLfLfLLffLffLfLfLLLLLfLfLfftttttt1t1t1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
+<text x="24" y="625.6" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;11111111111ttLLLLLLfffffffffLLLfffLfLLfftt11111111i;;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
+<text x="24" y="635.0" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;1i1iiiiiii11fLfffffffffftffffffffffLtt111111111i;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
+<text x="24" y="644.4" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;:;;;;;;;;;;:;;;;;;;;;;;;;;;;;i11i1iiiiii1fttttttttttttt1t1ttff11iiiiiii1i;;;;;;;;;;;;;;;;:;;;:;;;;;;;;;;;;;;;;;;;;;;;</text>
+<text x="24" y="653.8" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;;;;;;;:;;;;:;;;;;;;;;;;;;;;;;;;;;i1111iiiiiii111111111111i11111iiiiiiiiiii;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
+<text x="24" y="663.2" font-size="7.6" fill="#2580ff" xml:space="preserve">;;;;;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;iiii1iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii;;;;;;;;;;;:;;;;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;</text>
+<text x="646.8000000000001" y="218.3" font-size="13" fill="#2580ff" font-weight="bold">swetagupta7499-ctrl@github  ----------------------------</text>
+<text x="646.8000000000001" y="234.3" font-size="13"><tspan fill="#57606a">Name:</tspan> <tspan fill="#24292f">Sweta Gupta</tspan></text>
+<text x="646.8000000000001" y="250.3" font-size="13"><tspan fill="#57606a">University:</tspan> <tspan fill="#24292f">Sitare University</tspan></text>
+<text x="646.8000000000001" y="266.3" font-size="13"><tspan fill="#57606a">Degree:</tspan> <tspan fill="#24292f">B.Tech Computer Science (Undergraduate)</tspan></text>
+<text x="646.8000000000001" y="298.3" font-size="13" fill="#2580ff" font-weight="bold">Interests  ---------------------------------------------</text>
+<text x="646.8000000000001" y="314.3" font-size="13"><tspan fill="#57606a">Languages:</tspan> <tspan fill="#24292f">Python, Java, JavaScript</tspan></text>
+<text x="646.8000000000001" y="330.3" font-size="13"><tspan fill="#57606a">Focus:</tspan> <tspan fill="#24292f">Web Dev, DSA, AI/ML</tspan></text>
+<text x="646.8000000000001" y="346.3" font-size="13"><tspan fill="#57606a">Hackathon:</tspan> <tspan fill="#24292f">Smart India Hackathon</tspan></text>
+<text x="646.8000000000001" y="362.3" font-size="13"><tspan fill="#57606a">Project:</tspan> <tspan fill="#24292f">TribalScholar (AI scholarship system)</tspan></text>
+<text x="646.8000000000001" y="394.3" font-size="13" fill="#2580ff" font-weight="bold">Find me  -----------------------------------------------</text>
+<text x="646.8000000000001" y="410.3" font-size="13"><tspan fill="#57606a">GitHub:</tspan> <tspan fill="#24292f">github.com/swetagupta7499-ctrl</tspan></text>
+<text x="646.8000000000001" y="426.3" font-size="13"><tspan fill="#57606a">LinkedIn:</tspan> <tspan fill="#24292f">linkedin.com/in/swetagupta7499</tspan></text>
+<text x="646.8000000000001" y="442.3" font-size="13"><tspan fill="#57606a">Email:</tspan> <tspan fill="#24292f">swetagupta@sitare.org</tspan></text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1NmEzNjE2OS02YzkwLTQyMTItOWE5MC1mNTg2OWU3MThhNDMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIsDA3r4vnUzf2R5JspED3sAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxZDhhM2E2Yi0wNjVmLTQzNTgtYjk5Yy03Y2M4NTc0ZWIyMGFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNomTROGp2JFnsKaURQCLsTtAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0SmCm/fhExRLZd5IxeRQI0G7fR9F+Ulvs2nhGNOCar2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAj2N/2m9k7mWlapHA8WIOcAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIFZIqUmmFvoRLwUjCgCqv0puLHVghOm/YgK8ivLkJ+4zZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTqtZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU2YTM2MTY5LTZjOTAtNDIxMi05YTkwLWY1ODY5ZTcxOGE0My9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmRmNjI0YzM0LTI4ZGEtNDc0ZS1iOGVlLTMyMzc5ZjJiMTVjZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDRKYKb9+ETFEtl3kjF5FAjQbt9H0X5SW+zaeEY04JqvaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg15+7xkxmg27faADQrMf7+HOjjJmcSFkZ0E5APZ9dEkeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmP44HVPmrvaYnS33DYgydp1gzXvx7ZrDJUVA5UOZnLV0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLngzuxRfIijj9p3GsLoTQ963BB8oocJLc+CvwpdQ9DjnfalxBCWhKF24+VAPHTjk4Sln8xFhHyS0GSHNzsRtRc=</c2pa:manifest></metadata></svg>
