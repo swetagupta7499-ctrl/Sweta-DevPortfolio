@@ -23,11 +23,12 @@
 @keyframes move{from{transform:translateX(0)}to{transform:translateX(-1000px)}}
 .coin{animation:spin .9s linear infinite;transform-box:fill-box;transform-origin:center}
 @keyframes spin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.15)}}
-.blink{animation:blink 1s steps(1) infinite}
-@keyframes blink{0%{opacity:1}50%{opacity:0}}
+.score{animation:score 4s steps(20,end) infinite}
+@keyframes score{from{transform:translateY(0)}to{transform:translateY(-440px)}}
 </style>
 <defs>
 <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050b16"/><stop offset="0.6" stop-color="#0d2142"/><stop offset="1" stop-color="#1e4fa8"/></linearGradient>
+<clipPath id="sc"><rect x="688" y="26" width="80" height="26"/></clipPath>
 <clipPath id="round"><rect width="800" height="500" rx="18"/></clipPath>
 </defs>
 <g clip-path="url(#round)">
@@ -109,9 +110,7 @@
  </g>
 </g></g>
 
-<text x="28" y="44" font-size="20" font-weight="bold" fill="#e2f0ff">SWETA.PY</text>
-<text x="28" y="68" font-size="13" fill="#7fb0ff">LEVEL 1: CS UNDERGRAD @ SITARE UNIVERSITY</text>
-<text x="28" y="88" font-size="13" fill="#7fb0ff">BOSS: TRIBALSCHOLAR (SIH)</text>
-<text class="blink" x="400" y="466" text-anchor="middle" font-size="16" font-weight="bold" fill="#fbbf24">PRESS START</text>
+<text x="610" y="44" font-size="16" font-weight="bold" fill="#7fb0ff">SCORE</text>
+<g clip-path="url(#sc)"><g class="score" font-size="16" font-weight="bold" fill="#fbbf24"><text x="688" y="44">0000</text><text x="688" y="66">0020</text><text x="688" y="88">0040</text><text x="688" y="110">0060</text><text x="688" y="132">0080</text><text x="688" y="154">0100</text><text x="688" y="176">0120</text><text x="688" y="198">0140</text><text x="688" y="220">0160</text><text x="688" y="242">0180</text><text x="688" y="264">0200</text><text x="688" y="286">0220</text><text x="688" y="308">0240</text><text x="688" y="330">0260</text><text x="688" y="352">0280</text><text x="688" y="374">0300</text><text x="688" y="396">0320</text><text x="688" y="418">0340</text><text x="688" y="440">0360</text><text x="688" y="462">0380</text></g></g>
 </g>
 </svg>
