@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2580ff&height=180&section=header&text=Hey%2C%20I'm%20Sweta!&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=CSE%20Undergraduate%20%7C%20Software%20Developer%20%7C%20AI%2FML%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=570&size=22&pause=1000&color=2580ff&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=2580ff&center=true&vCenter=true&width=700&lines=Computer+Science+Undergraduate+%40+Sitare+University;Python+%26+Java+Developer;AI+%26+Machine+Learning+Explorer;" alt="Typing SVG" />
 
 </div>
 
@@ -24,6 +24,11 @@
 <li>💻 <samp>Passionate about programming, problem-solving, and turning ideas into practical solutions through code.</samp></li>
 <li>🌱 <samp>Currently focused on strengthening programming fundamentals, building meaningful projects, and exploring software development &amp; AI/ML research.</samp></li>
 <li>⚡ <samp>Interests: Python, Java, Web Development, Data Structures &amp; Algorithms (DSA), and Artificial Intelligence &amp; Machine Learning.</samp></li>
+<li>💬 <samp>Ask me about Python, Java, Web Development, and my journey into Computer Science.</samp></li>
+<li>🚀 <samp>Always exploring new opportunities in Software Development, AI/ML, and technology.</samp></li>
+<li>🧠 <samp>Currently working on improving my problem-solving skills and exploring Competitive Programming.</samp></li>
+<li>♟️ <samp>Fun fact: I have been a passionate chess player and have competed at a high level. Chess has taught me strategic thinking, patience, and decision-making.</samp></li>
+<li>🧩 <samp>I may not know everything yet, but I never step back from learning something new.</samp></li>
 </ul>
 </div>
 
@@ -68,9 +73,9 @@
 <h3><b><samp>Contribution Graph</samp></b></h3>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg?v=2">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/swetagupta7499-ctrl/Sweta-DevPortfolio/output/github-contribution-grid-snake.svg?v=2">
 </picture>
 
 <br>
